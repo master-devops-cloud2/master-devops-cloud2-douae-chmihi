@@ -11,8 +11,10 @@ public class HelloController {
         return "Hello from Spring Boot!";
     }
 
-    @GetMapping("/GoodBye")
-    public String GoodBye(){
-        return "GoodBye Spring Boot";
+
+    @GetMapping("/hi")
+    public String Hi(){
+        return "hi douae!!";
+
     }
 }
