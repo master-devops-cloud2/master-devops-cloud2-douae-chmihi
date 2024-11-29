@@ -1,4 +1,4 @@
-package com.example.hello_springboot_app.controller;
+package com.example.lab_github_gates_douae_chmihi.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,5 +9,10 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello() {
         return "Hello from Spring Boot!";
+    }
+
+    @GetMapping("/GoodBye")
+    public String GoodBye(){
+        return "GoodBye Spring Boot";
     }
 }
